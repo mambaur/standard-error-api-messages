@@ -1,0 +1,140 @@
+{
+  "http_response": [
+    {
+      "code": 300,
+      "message": "The requested resource corresponds to any one of a set of representations, each with its own specific location."
+    },
+    {
+      "code": 301,
+      "message": "The resource has moved permanently. Please refer to the documentation."
+    },
+    {
+      "code": 302,
+      "message": "The resource has moved temporarily. Please refer to the documentation."
+    },
+    {
+      "code": 303,
+      "message": "The resource can be found under a different URI."
+    },
+    {
+      "code": 304,
+      "message": "The resource is available and not modified."
+    },
+    {
+      "code": 305,
+      "message": "The requested resource must be accessed through the proxy given by the Location field."
+    },
+    {
+      "code": 307,
+      "message": "The requested resource must be accessed through the proxy given by the Location field."
+    },
+    {
+      "code": 400,
+      "message": "Invalid syntax for this request was provided."
+    },
+    {
+      "code": 401,
+      "message": "You are unauthorized to access the requested resource. Please log in."
+    },
+    {
+      "code": 403,
+      "message": "Your account is not authorized to access the requested resource."
+    },
+    {
+      "code": 404,
+      "message": "We could not find the resource you requested. Please refer to the documentation for the list of resources."
+    },
+    {
+      "code": 405,
+      "message": "This method type is not currently supported."
+    },
+    {
+      "code": 406,
+      "message": "Acceptance header is invalid for this endpoint resource."
+    },
+    {
+      "code": 407,
+      "message": "Authentication with proxy is required."
+    },
+    {
+      "code": 408,
+      "message": "Client did not produce a request within the time that the server was prepared to wait."
+    },
+    {
+      "code": 409,
+      "message": "The request could not be completed due to a conflict with the current state of the resource."
+    },
+    {
+      "code": 410,
+      "message": "The requested resource is no longer available and has been permanently removed."
+    },
+    {
+      "code": 411,
+      "message": "Length of the content is required, please include it with the request."
+    },
+    {
+      "code": 412,
+      "message": "The request did not match the pre-conditions of the requested resource."
+    },
+    {
+      "code": 413,
+      "message": "The request entity is larger than the server is willing or able to process."
+    },
+    {
+      "code": 414,
+      "message": "The request URI is longer than the server is willing to interpret."
+    },
+    {
+      "code": 415,
+      "message": "The requested resource does not support the media type provided."
+    },
+    {
+      "code": 416,
+      "message": "The requested range for the resource is not available."
+    },
+    {
+      "code": 417,
+      "message": "Unable to meet the expectation given in the Expect request header."
+    },
+    {
+      "code": 419,
+      "message": "The requested resource is missing required arguments."
+    },
+    {
+      "code": 420,
+      "message": "The requested resource does not support one or more of the given parameters."
+    },
+    {
+      "code": 422,
+      "message": "The request was well-formed but was unable to be followed due to semantic errors."
+    },
+    {
+      "code": 500,
+      "message": "Unexpected internal server error."
+    },
+    {
+      "code": 501,
+      "message": "The requested resource is recognized but not implemented."
+    },
+    {
+      "code": 502,
+      "message": "Invalid response received when acting as a proxy or gateway."
+    },
+    {
+      "code": 503,
+      "message": "The server is currently unavailable."
+    },
+    {
+      "code": 504,
+      "message": "Did not receive a timely response from upstream server while acting as a gateway or proxy."
+    },
+    {
+      "code": 505,
+      "message": "The HTTP protocol version used in the request message is not supported."
+    },
+    {
+      "code": 550,
+      "message": "A failure occurred during initialization of services. API will be unavailable."
+    }
+  ]
+}
